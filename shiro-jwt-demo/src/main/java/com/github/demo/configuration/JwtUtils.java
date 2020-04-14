@@ -70,8 +70,8 @@ public class JwtUtils {
     }
 
     /**
-     * 生成随机盐,长度32位
-     * @return
+     * 生成随机盐,
+     * @return长度32位
      */
     public static String generateSalt(){
         SecureRandomNumberGenerator secureRandom = new SecureRandomNumberGenerator();
